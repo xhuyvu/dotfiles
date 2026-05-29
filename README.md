@@ -4,7 +4,7 @@ i'm using these below:
 + OS: Ubuntu 26 LTS
 + WM: i3
 + Terminal: alacritty
-
++ Shell: zsh
 ### Instructions
 <p> dependencies</p>
 
@@ -19,7 +19,7 @@ nautilus gvfs gvfs-backends gvfs-fuse file-roller \
 feh lxappearance gnome-themes-extra papirus-icon-theme \
 fonts-firacode fonts-noto fonts-noto-color-emoji \
 flameshot xclip xsel copyq \
-xss-lock picom 
+xss-lock picom git zsh
 
 ```
 ### Note that:
@@ -36,3 +36,7 @@ The command above is sufficient for :
 - Font
 - Wallpaper
 - Compositor
+### Change Shell
+``` zsh 
+chsh -s $(which zsh) 
+```
