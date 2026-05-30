@@ -10,8 +10,10 @@ i'm using these below:
 
 ``` bash
 sudo apt update
-sudo apt install \ 
-xorg i3 i3status i3lock dmenu \
+
+sudo apt install -y \
+xorg xinput xserver-xorg-input-libinput \
+i3 i3status i3lock dmenu \
 alacritty rofi dunst libnotify-bin \
 pipewire pipewire-pulse wireplumber pavucontrol pulseaudio-utils \
 network-manager network-manager-gnome blueman brightnessctl acpi \
