@@ -1,1 +1,2 @@
-# My-Dotfiles
+# My-Dotfiles 
+lazyvim
